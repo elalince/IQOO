@@ -3,7 +3,7 @@
   font-display: swap;
   font-weight: 400;
   font-style: normal;
-  src: url("/fonts/optima.ttf") format("truetype");
+  src: url("/fonts/OptimaCyr.ttf") format("truetype");
 }
 
 @font-face {
@@ -259,6 +259,79 @@ p {
       background-position-y: 25%;
     }
 
+    &--2-1 {
+      background-image: url(/img/answer-2-1.webp);
+      background-size: 76%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 65%;
+    }
+
+     &--2-2 {
+      background-image: url(/img/answer-2-2.webp);
+      background-size: 75%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 53%;
+    }
+
+     &--3-1 {
+      background-image: url(/img/answer-3-1.webp);
+      background-size: 76%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 45%;
+    }
+
+     &--3-2 {
+      background-image: url(/img/answer-3-2.webp);
+      background-size: 75%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 45%;
+    }
+
+    &--4-1 {
+      background-image: url(/img/answer-4-1.webp);
+      background-size: 76%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 45%;
+    }
+
+    &--4-2 {
+      background-image: url(/img/answer-4-2.webp);
+      background-size: 76%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 45%;
+    }
+    &--5-1 {
+      background-image: url(/img/answer-5-1.webp);
+      background-size: 76%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 25%;
+      background-position-y: 45%;
+    }
+
+       &--5-2 {
+      background-image: url(/img/answer-5-2.webp);
+      background-size: 84%;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position-x: 35%;
+      background-position-y: 45%;
+    }
+
+
+
     &__text {
       position: absolute;
       font-family: "Optima Cyr", sans-serif;
@@ -284,6 +357,88 @@ p {
         top: 395px;
         right: 100px;
       }
+
+      &--2-1-1 {
+        top: 180px;
+        left: 210px;
+        text-align: right;
+      }
+
+      &--2-1-2 {
+        bottom: 160px;
+        right: 180px;
+      }
+
+      &--2-2-1 {
+        top: 180px;
+        left: 320px;
+        text-align: right;
+      }
+
+      &--2-2-2 {
+        top: 440px;
+        right: 220px;
+      }
+
+      &--3-1-1 {
+        top: 155px;
+        left: 270px;
+        text-align: right;
+      }
+
+      &--3-1-2 {
+        bottom: 190px;
+        right: 205px;
+      }
+
+      &--3-2-1 {
+        top: 110px;
+        left: 220px;
+      }
+
+      &--3-2-2 {
+        top: 415px;
+        right: 155px;
+      }
+
+      &--4-1-1 {
+          top: 145px;
+        left: 320px;
+        text-align: right;
+      }
+
+      &--4-1-2 {
+        bottom: 215px;
+        right: 260px;
+      }
+
+      &--4-2-1 {
+       top: 130px;
+       left: 410px;
+       text-align: right;
+      }
+
+      &--4-2-2 {
+        top: 460px;
+        right: 85px;
+      }
+
+      &--5-1-1 {
+          top: 145px;
+        left: 320px;
+        text-align: right;
+      }
+
+      &--5-1-2 {
+        bottom: 165px;
+        right: 235px;
+      }
+
+      &--5-2-1 {
+        top: 240px;
+        left: 300px;
+        text-align: right;
+      }
     }
 
     &__phone {
@@ -294,7 +449,35 @@ p {
           left: 130px;
           bottom: 70px;
         }
-      }
+
+      &--2 {
+         width: 437px;
+          aspect-ratio: 437 / 175;
+          right: 290px;
+          bottom: 230px;
+        }
+
+        &--3 {
+         width: 437px;
+          aspect-ratio: 437 / 175;
+          right: 240px;
+          bottom: 310px;
+        }
+
+        &--4 {
+          width: 222px;
+          aspect-ratio: 222 / 454;
+          left: 410px;
+          bottom: 85px;
+        }
+
+         &--5 {
+          width: 190px;
+          aspect-ratio: 222 / 454;
+          left: 410px;
+          bottom: 170px;
+        }
+      } 
 
       &__phone-text {
         position: absolute;
@@ -307,6 +490,31 @@ p {
           max-width: 907px;
           left: 400px;
           bottom: 100px;
+        }
+
+        &--2 {
+          max-width: 712px;
+          left: 650px;
+          bottom: 75px;
+
+        }
+
+        &--3 {
+          max-width: 712px;
+          left: 650px;
+          bottom: 100px;
+
+        }
+
+        &--4 {
+          max-width: 712px;
+          left: 650px;
+          bottom: 150px;
+        }
+         &--5 {
+          max-width: 740px;
+          left: 620px;
+          bottom: 80px;
         }
       }
   }
@@ -326,7 +534,7 @@ p {
 
         &--bottom {
           bottom: clamp(20px, 3vw, 32px);
-          background-size: contain;
+          // background-size: contain;
         }
 
         &--left {
@@ -368,7 +576,7 @@ p {
 
 
           &__text {
-            font-size: clamp(16px, 2vw, 36px);
+            font-size: clamp(8px, 2.2vw, 36px);
 
             &--1-1-1{
               top: clamp(10px, 15vw, 210px);
@@ -389,26 +597,145 @@ p {
               top: clamp(10px, 26vw, 430px);
               right: clamp(30px, 10vw, 100px);
             }
+
+            &--2-1-1 {
+              top: clamp(10px, 15vw, 180px);
+              left: clamp(10px, 20vw, 210px);
+              text-align: right;
+            }
+
+            &--2-1-2 {
+              bottom: clamp(30px, 12vw, 160px);
+              right: clamp(30px, 15vw, 180px);
+            }
+
+             &--2-2-1 {
+                top: clamp(10px, 11vw, 180px);
+               left: clamp(10px, 25vw, 360px);
+              }
+
+              &--2-2-2 {
+                 top: clamp(10px, 28vw, 440px);
+                 right: clamp(30px, 18vw, 275px);
+              }
+
+              &--3-1-1 {
+                  top: clamp(10px, 10vw, 155px);
+                  left: clamp(10px, 20vw, 280px);
+                  text-align: right;
+                }
+
+            &--3-1-2 {
+                 bottom: clamp(30px, 12vw, 190px);
+                  right: clamp(30px, 15vw, 205px);
+            }
+
+              &--3-2-1 {
+                    top: clamp(10px, 7vw, 110px);
+                    left: clamp(10px, 16vw, 220px);
+                  }
+              &--3-2-2 {
+                    top: clamp(10px, 26vw, 415px);
+                    right: clamp(30px, 12vw, 155px);
+              }
+              &--4-1-1 {
+                    top: clamp(10px, 9vw, 145px);
+                    left: clamp(10px, 22vw, 320px);
+                    text-align: right;
+              }
+              &--4-1-2 {
+                  bottom: clamp(30px, 15vw, 215px);
+                  right: clamp(30px, 18vw, 260px);
+              }
+
+                &--4-2-1 {
+                    top: clamp(10px, 8vw, 130px);
+                    left: clamp(10px, 26vw, 410px);
+                    text-align: right;
+                }
+                &--4-2-2 {
+                    top: clamp(10px, 30vw, 460px);
+                    right: clamp(30px, 7vw, 85px);
+                }
+                  &--5-1-1 {
+                      top: clamp(10px, 9vw, 145px);
+                      left: clamp(10px, 22vw, 320px);
+                      text-align: right;
+                  }
+                  &--5-1-2 {
+                      bottom: clamp(30px, 12vw, 165px);
+                      right: clamp(30px, 16vw, 235px);
+                  }
+                  &--5-2-1 {
+                      top: clamp(10px, 15vw, 240px);
+                      left: clamp(10px, 20vw, 300px);
+                      text-align: right;
+                  }
+
           }
 
           &__phone {
             position: absolute;
 
             &--1 {
-              width: clamp(70px, 11vw, 204px);
-              left: clamp(50px, 7vw, 130px);
+              width: clamp(40px, 11vw, 204px);
+              left: clamp(35px, 7vw, 130px);
               bottom: clamp(10px, 7vw, 70px);
             }
+
+            &--2 {
+              width: clamp(80px, 24vw, 437px);
+              right: clamp(50px, 25vw, 260px);
+              bottom: clamp(50px, 18vw, 210px);
+            }
+
+            &--3 {
+              width: clamp(80px, 24vw, 437px);
+              right: clamp(50px, 20vw, 240px);
+              bottom: clamp(50px, 21vw, 310px);
+            }
+              &--4 {
+                width: clamp(40px, 13vw, 222px);
+                left: clamp(35px, 26vw, 410px);
+                bottom: clamp(10px, 7vw, 85px);
+              }
+                &--5 {
+                   width: clamp(40px, 11vw, 190px);
+                    left: clamp(35px, 26vw, 410px);
+                    bottom: clamp(10px, 12vw, 170px);
+              }
           }
 
           &__phone-text {
-            font-size: clamp(10px, 1.6vw, 24px);
+            font-size: clamp(6px, 1.6vw, 24px);
 
             &--1 {
               max-width: 60vw;
               left: clamp(20px, 23vw, 400px);
               bottom: clamp(20px, 9vw, 100px);
             }
+
+            &--2 {
+              max-width: 50vw;
+              left: clamp(20px, 42vw, 650px);
+              bottom: clamp(30px, 7vw, 75px);
           }
+
+            &--3 {
+              max-width: 48vw;
+              left: clamp(20px, 42vw, 650px);
+              bottom: clamp(30px, 7vw, 100px);
+            }
+            &--4 {
+              max-width: 48vw;
+              left: clamp(20px, 41vw, 650px);
+              bottom: clamp(30px, 10vw, 150px);
+            }
+              &--5 {
+                max-width: 50vw;
+                left: clamp(20px, 40vw, 620px);
+                bottom: clamp(30px, 7vw, 80px);
+              }
+        }
       }
   } 
